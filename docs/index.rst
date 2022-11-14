@@ -7,7 +7,7 @@ Welcome to |project| documentation!
    history
 
 
-.. automodule:: skeleton
+.. automodule:: jaraco.zstd
     :members:
     :undoc-members:
     :show-inheritance:

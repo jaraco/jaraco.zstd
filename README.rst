@@ -1,10 +1,10 @@
-.. image:: https://img.shields.io/pypi/v/skeleton.svg
-   :target: https://pypi.org/project/skeleton
+.. image:: https://img.shields.io/pypi/v/jaraco.zstd.svg
+   :target: https://pypi.org/project/jaraco.zstd
 
-.. image:: https://img.shields.io/pypi/pyversions/skeleton.svg
+.. image:: https://img.shields.io/pypi/pyversions/jaraco.zstd.svg
 
-.. image:: https://github.com/jaraco/skeleton/workflows/tests/badge.svg
-   :target: https://github.com/jaraco/skeleton/actions?query=workflow%3A%22tests%22
+.. image:: https://github.com/jaraco/jaraco.zstd/workflows/tests/badge.svg
+   :target: https://github.com/jaraco/jaraco.zstd/actions?query=workflow%3A%22tests%22
    :alt: tests
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
