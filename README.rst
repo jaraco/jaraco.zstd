@@ -16,3 +16,17 @@
 
 .. image:: https://img.shields.io/badge/skeleton-2022-informational
    :target: https://blog.jaraco.com/skeleton
+
+Extract files from a ``.tar.zstd``::
+
+    python -m jaraco.zstd --extract filename.tar.zstd
+
+Usage::
+
+    python -m jaraco.zstd --help
+    usage: zstd.py [-h] -e SOURCE [--out-dir OUT_DIR]
+
+    options:
+      -h, --help            show this help message and exit
+      -e SOURCE, --extract SOURCE
+      --out-dir OUT_DIR
