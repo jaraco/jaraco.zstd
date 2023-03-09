@@ -30,3 +30,7 @@ Usage::
       -h, --help            show this help message and exit
       -e SOURCE, --extract SOURCE
       --out-dir OUT_DIR
+
+This project can be retired if
+`indygreg/python-zstandard#186 <https://github.com/indygreg/python-zstandard/issues/186>`_
+is fixed.

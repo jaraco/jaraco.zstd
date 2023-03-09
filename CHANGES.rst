@@ -1,3 +1,8 @@
+v1.0.2
+======
+
+Updated README to link to issue that inspired the package.
+
 v1.0.1
 ======
 
