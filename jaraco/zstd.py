@@ -27,3 +27,4 @@ def main():
 
 
 __name__ == '__main__' and main()
+print('foo:', __name__)
