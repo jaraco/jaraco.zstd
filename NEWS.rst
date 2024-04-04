@@ -1,3 +1,12 @@
+v1.1.1
+======
+
+Bugfixes
+--------
+
+- Remove debugging print.
+
+
 v1.1.0
 ======
 
