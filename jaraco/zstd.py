@@ -17,9 +17,11 @@ def build_parser():
 def extract(args):
     with args.source.open('rb') as ifh:
         dctx = zstandard.ZstdDecompressor()
-        with dctx.stream_reader(ifh) as reader:
-            with tarfile.open(mode="r|", fileobj=reader) as tf:
-                tf.extractall(args.out_dir)
+        with (
+            dctx.stream_reader(ifh) as reader,
+            tarfile.open(mode="r|", fileobj=reader) as tf,
+        ):
+            tf.extractall(args.out_dir)
 
 
 def main():
